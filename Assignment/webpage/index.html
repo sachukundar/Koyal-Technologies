@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/http-vue-loader"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  </style>
+</head>
+
+<body>
+  <section>
+    <div id="my-app">
+      <my-component></my-component>
+      <my-component2></my-component2>
+    </div>
+  </section>
+
+
+  <script type="text/javascript">
+    new Vue({
+      el: '#my-app',
+      components: {
+        'my-component': httpVueLoader('my-component.vue'),
+        'my-component2': httpVueLoader('my-component2.vue'),
+      }
+    });
+  </script>
+</body>
+
+</html>

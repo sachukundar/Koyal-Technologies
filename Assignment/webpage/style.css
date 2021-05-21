@@ -1,0 +1,49 @@
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 5px 10px 5px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+section {
+    padding: 0px 35px 35px 35px;
+} 
+
+.header {
+    border-style: ridge;
+    padding: 12px;
+}
+
+.h1 {
+    margin-left: 20px;
+}
+
+.pk {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.pl {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.maindiv {
+    padding: 20px 20px 20px 20px;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  font-size: 24px;
+  padding: 12px 80px 7px 80px; 
+  background-color: grey;
+  color:white;
+ }
+
+.u{
+    margin: 75px 70px 100px 70px;
+    }
